@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Drum Music</title>
+  <script src="https://kit.fontawesome.com/0e8c5e07d6.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Advent+Pro&family=Courgette&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Drum Music Keyboard</h1>
+
+            <div class="homePage__cube"></div>
+            <div class="homePage__cube"></div>
+            <div class="homePage__cube"></div>
+            <div class="homePage__cube"></div>
+            <div class="homePage__cube"></div>
+            <div class="homePage__cube"></div>
+            <div class="homePage__cube"></div>
+            <div class="homePage__cube"></div>
+            <div class="homePage__cube"></div>
+
+  <div class="keys">
+      <div data-key="81" class="key">
+          <i class="far fa-square yellowCase"></i>
+          <span class="sound yellowText">Q</span>
+      </div>
+      <div data-key="83" class="key">
+        <i class="far fa-square greenCase"></i>
+          <span class="sound greenText">S</span>
+      </div>
+      <div data-key="68" class="key">
+        <i class="far fa-square blueCase"></i>
+          <span class="sound blueText">D</span>
+      </div>
+      <div data-key="70" class="key">
+        <i class="far fa-square violetCase"></i>
+        <span class="sound violetText">F</span>
+      </div>
+      <div data-key="71" class="key">
+        <i class="far fa-square darkblueCase"></i>
+        <span class="sound darkblueText">G</span>
+      </div>
+      <div data-key="72" class="key">
+        <i class="far fa-square pinkCase"></i>
+        <span class="sound pinkText">H</span>
+      </div>
+      <div data-key="74" class="key">
+        <i class="far fa-square orangeCase"></i>
+        <span class="sound orangeText">J</span>
+      </div>
+      <div data-key="75" class="key">
+        <i class="far fa-square redCase"></i>
+        <span class="sound redText">K</span>
+      </div>
+      <div data-key="76" class="key">
+        <i class="far fa-square greenCase"></i>
+        <span class="sound greenText">L</span>
+      </div>
+  </div>
+
+  <audio data-key="81" src="sounds/clap.wav"></audio>
+  <audio data-key="83" src="sounds/hihat.wav"></audio>
+  <audio data-key="68" src="sounds/kick.wav"></audio>
+  <audio data-key="70" src="sounds/openhat.wav"></audio>
+  <audio data-key="71" src="sounds/boom.wav"></audio>
+  <audio data-key="72" src="sounds/ride.wav"></audio>
+  <audio data-key="74" src="sounds/snare.wav"></audio>
+  <audio data-key="75" src="sounds/tom.wav"></audio>
+  <audio data-key="76" src="sounds/tink.wav"></audio>
+
+  <div class="info">Cliquer sur les touches de votre clavier pour jouer de la musique. </div>
+
+<script src="script.js"></script>
+
+
+</body>
+</html>
